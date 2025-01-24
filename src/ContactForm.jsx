@@ -72,7 +72,7 @@ const ContactForm = ({ existingContact = {}, updateCallback }) => {
               required
             />
           </div>
-          <button type="submit" className="button-30">
+          <button type="submit" className="button-30" onclick={onSubmit}>
             {updating ? "Update" : "Create"}
           </button>
         </form>
