@@ -17,7 +17,7 @@ const ContactForm = ({ existingContact = {}, updateCallback }) => {
       email,
     };
     const url =
-      "http://127.0.0.1:5000/" +
+      "https://flasker-k6y38wvbh-lelouchelawlietlieberts-projects.vercel.app/" +
       (updating ? `update_contact/${existingContact.id}` : "create_contact");
     const options = {
       method: updating ? "PATCH" : "POST",
