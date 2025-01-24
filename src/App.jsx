@@ -12,7 +12,7 @@ function App() {
   }, []);
 
   const fetchContacts = async () => {
-    const response = await fetch("https://flasker-k6y38wvbh-lelouchelawlietlieberts-projects.vercel.app/contacts");
+    const response = await fetch("https://flasker-lake.vercel.app/contacts");
     const data = await response.json();
     setContacts(data.contacts);
   };
