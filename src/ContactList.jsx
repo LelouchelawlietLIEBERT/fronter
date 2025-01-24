@@ -9,7 +9,7 @@ const ContactList = ({ contacts, updateContact, updateCallback }) => {
         method: "DELETE",
       };
       const response = await fetch(
-        `https://flasker-k6y38wvbh-lelouchelawlietlieberts-projects.vercel.app/delete_contact/${id}`,
+        `https://flasker-lake.vercel.app/delete_contact/${id}`,
         options
       );
       if (response.status === 200) {
