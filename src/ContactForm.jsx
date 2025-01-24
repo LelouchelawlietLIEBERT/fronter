@@ -38,7 +38,7 @@ const ContactForm = ({ existingContact = {}, updateCallback }) => {
   return (
     <>
       <div className="the">
-        <form onSubmit={onSubmit}>
+        <form onSubmit={onSubmit()}>
           <div>
             <input
               autoComplete="off"
@@ -72,7 +72,7 @@ const ContactForm = ({ existingContact = {}, updateCallback }) => {
               required
             />
           </div>
-          <button type="submit" className="button-30" onclick={onSubmit}>
+          <button type="submit" className="button-30">
             {updating ? "Update" : "Create"}
           </button>
         </form>
