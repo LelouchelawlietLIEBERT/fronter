@@ -78,7 +78,7 @@ const ContactForm = ({ existingContact = {}, updateCallback }) => {
         </form>
         <div className="fcwd">
           <img
-            src="public\tyler-durden-fight-club-rules-cropped.png"
+            src="tyler-durden-fight-club-rules-cropped.png"
             alt="WE DO NOT TALK ABOUT IT"
             className="fcwd-img"
           />
