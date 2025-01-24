@@ -9,7 +9,7 @@ const ContactList = ({ contacts, updateContact, updateCallback }) => {
         method: "DELETE",
       };
       const response = await fetch(
-        `http://127.0.0.1:5000/delete_contact/${id}`,
+        `https://flasker-k6y38wvbh-lelouchelawlietlieberts-projects.vercel.app/delete_contact/${id}`,
         options
       );
       if (response.status === 200) {
