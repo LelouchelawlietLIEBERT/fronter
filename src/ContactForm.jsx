@@ -38,7 +38,7 @@ const ContactForm = ({ existingContact = {}, updateCallback }) => {
   return (
     <>
       <div className="the">
-        <form onSubmit={onSubmit()}>
+        <form onSubmit={onSubmit}>
           <div>
             <input
               autoComplete="off"
